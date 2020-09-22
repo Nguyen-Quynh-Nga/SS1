@@ -1,0 +1,6 @@
+amountOfPurchase= float(input("Enter the amount of purchase: "))
+print("The amount of purchase: ", amountOfPurchase)
+print("The state sales tax: ", amountOfPurchase*5/100)
+print("The county sales tax: ", amountOfPurchase*2.5/100)
+print("The total sales tax: ", (amountOfPurchase*5/100)+ (amountOfPurchase*2.5/100))
+print("The total sale: ", amountOfPurchase+((amountOfPurchase*5/100)+ (amountOfPurchase*2.5/100)))
